@@ -17,6 +17,36 @@ body {
 
 .sidebar {
     width: 30%;
+    height: 100vh;
+    background: url(images/sidebar-bg.jpg) no-repeat center;
+    background-size: cover;
+
+    text-align: center;
+    position: relative;
+}
+
+.sidebar-title {
+    position: absolute;
+    width: 100%;
+
+    top: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+
+    font-family: NorseBold;
+    font-size: 4rem;
+    color: white;
+}
+
+.picture-credit {
+    width: 100%;
+
+    position: absolute;
+    bottom: 10px;
+
+    & a, a:visited {
+        color: darkblue;
+    }
 }
 
 .form {
