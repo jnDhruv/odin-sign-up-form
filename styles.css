@@ -63,7 +63,7 @@ body {
 .introduction {
     font-weight: 550;
     font-size: 1.2rem;
-    margin: 50px;
+    margin: 75px 50px;
 }
 
 form {
@@ -101,4 +101,21 @@ form label {
 .required-asterisk {
     color: red;
     font-size: 1rem;
+}
+
+button[type="submit"] {
+    margin-top: 25px;
+    padding: 8px 15px;
+
+    color: white;
+    font-weight: bold;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    border: none;
+}
+
+form p span {
+    text-decoration: underline;
+    color: darkblue;
 }
