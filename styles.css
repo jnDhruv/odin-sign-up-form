@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bgcolor: #F9FAFB;
+}
+
 @font-face {
     font-family: "NorseBold";
     src: url(fonts/Norse-Bold.otf);
@@ -49,8 +53,23 @@ body {
     }
 }
 
-.form {
+.form-section {
     width: 70%;
+
+    background-color: var(--bgcolor);
+    color: black;
+}
+
+.introduction {
+    font-weight: 550;
+    font-size: 1.2rem;
+    margin: 50px;
+}
+
+form {
+    background-color: white;
+    padding: 20px 50px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 input, button {
