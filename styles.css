@@ -104,6 +104,8 @@ form label {
 }
 
 button[type="submit"] {
+    cursor: pointer;
+
     margin-top: 25px;
     padding: 8px 15px;
 

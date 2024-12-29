@@ -29,11 +29,11 @@
             <div class="form-row">
                 <div class="form-col">
                     <label for="first-name">FIRST NAME <span class="required-asterisk">*</span></label>
-                    <input type="text" name="first-name" id="first-name" required>
+                    <input type="text" name="first-name" id="first-name" required pattern="^[^0-9]+$" maxlength="50">
                 </div>
                 <div class="form-col">
                     <label for="last-name">LAST NAME <span class="required-asterisk">*</span></label>
-                    <input type="text" name="last-name" id="last-name" required>
+                    <input type="text" name="last-name" id="last-name" required pattern="^[^0-9]+$" maxlength="50">
                 </div>
             </div>
             <div class="form-row">
@@ -43,17 +43,17 @@
                 </div>
                 <div class="form-col">
                     <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" name="user-phone" id="phone">
+                    <input type="tel" name="user-phone" id="phone" minlength="10" maxlength="10" pattern="^[0-9]+$">
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-col">
                     <label for="password">PASSWORD <span class="required-asterisk">*</span></label>
-                    <input type="password" name="user-password" id="password" required>
+                    <input type="password" name="user-password" id="password" required minlength="6">
                 </div>
                 <div class="form-col">
                     <label for="confirm-password">CONFIRM PASSWORD <span class="required-asterisk">*</span></label>
-                    <input type="password" name="user-password-confirmed" id="confirm-password" required>
+                    <input type="password" name="user-password-confirmed" id="confirm-password" required minlength="6">
                 </div>
             </div>
             <button type="submit">Create Account</button>
