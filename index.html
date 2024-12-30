@@ -29,31 +29,31 @@
             <div class="form-row">
                 <div class="form-col">
                     <label for="first-name">FIRST NAME <span class="required-asterisk">*</span></label>
-                    <input type="text" name="first-name" id="first-name" required pattern="^[^0-9]+$" maxlength="50">
+                    <input type="text" name="first-name" id="first-name" required pattern="^[^0-9]+$" maxlength="50" placeholder="John">
                 </div>
                 <div class="form-col">
                     <label for="last-name">LAST NAME <span class="required-asterisk">*</span></label>
-                    <input type="text" name="last-name" id="last-name" required pattern="^[^0-9]+$" maxlength="50">
+                    <input type="text" name="last-name" id="last-name" required pattern="^[^0-9]+$" maxlength="50" placeholder="Doe">
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-col">
                     <label for="email">EMAIL</label>
-                    <input type="email" name="user-email" id="email">
+                    <input type="email" name="user-email" id="email" placeholder="example@email.com">
                 </div>
                 <div class="form-col">
                     <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" name="user-phone" id="phone" minlength="10" maxlength="10" pattern="^[0-9]+$">
+                    <input type="tel" name="user-phone" id="phone" minlength="10" maxlength="10" pattern="^[0-9]+$" placeholder="">
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-col">
                     <label for="password">PASSWORD <span class="required-asterisk">*</span></label>
-                    <input type="password" name="user-password" id="password" required minlength="6">
+                    <input type="password" name="user-password" id="password" required minlength="6" placeholder="">
                 </div>
                 <div class="form-col">
                     <label for="confirm-password">CONFIRM PASSWORD <span class="required-asterisk">*</span></label>
-                    <input type="password" name="user-password-confirmed" id="confirm-password" required minlength="6">
+                    <input type="password" name="user-password-confirmed" id="confirm-password" required minlength="6" placeholder="">
                 </div>
             </div>
             <button type="submit">Create Account</button>
